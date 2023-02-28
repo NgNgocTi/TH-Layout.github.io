@@ -16,25 +16,25 @@ body{
 }
 .main header{
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(90, 123, 123);
     height: 150px;
     position: relative;
 }
 .main header .menu{
     width: 30%;
     height: 50px;
-    background-color: black;
+    background-color: rgb(114, 44, 44);
     position: absolute;
      right: 30px;
     bottom:70px ;
     border-radius: 5px 5px 5px 5px;
-    resize: both;
-    overflow: auto;
+    /* resize: both;
+    overflow: auto; */
 }
 .main header .nav{
     width: 100%;
     height: 70px;
-    background-color: bisque;
+    background-color: rgb(141, 89, 26);
     position: absolute;
     bottom: 0;
    
@@ -49,7 +49,7 @@ body{
     display: inline-block;
     line-height: 70px;
     padding: 0 30px ;
-    background-color: rgb(243, 222, 222);
+    background-color: rgb(249, 231, 231);
 
     
 }
@@ -62,7 +62,7 @@ body{
 
 }
 .main header .nav li:hover{
-    background-color: brown;
+    background-color: rgb(241, 27, 27);
 
     border-radius: 5px  5px 5px 5px;
 
@@ -75,15 +75,14 @@ body{
     width: 100%;
     height: 500px;
 }
-.main .body .aside{
+.main .body aside{
     width: 40%;
     height: 100%;
     background-color: blanchedalmond;
     float: left;
-    /* column-count: 3; */
-    border:  5px solid   ;
+
 }
-.main .body .section{
+.main .body section{
     width:  60%;
     height: 100%;
     background-color: rgb(90, 73, 48);
